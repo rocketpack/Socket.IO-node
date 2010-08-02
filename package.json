@@ -1,0 +1,7 @@
+{
+  "name"          : "socket.io",
+  "description"   : "Socket.IO for node",
+  "version"       : "0.5.3",
+  "main"          : "index.js",
+  "engines"       : { "node": ">=0.1.102" }
+}
