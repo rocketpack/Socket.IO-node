@@ -1,7 +1,17 @@
-{
-  "name"          : "socket.io",
-  "description"   : "Socket.IO for node",
-  "version"       : "0.5.3",
-  "main"          : "index.js",
-  "engines"       : { "node": ">=0.1.102" }
+{ "name" : "socket.io"
+, "description" : "The cross-browser WebSocket"
+, "version" : "0.6.13"
+, "author" : "LearnBoost"
+, "licenses" :
+  [ { "type" : "MIT"
+    , "url" : "http://github.com/learnboost/Socket.IO-node/raw/master/README.md"
+    }
+  ]
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/learnboost/Socket.IO-node.git"
+  }
+, "engine" : [ "node >=0.1.102" ]
+, "main" : "./index"
+, "scripts" : { "test" : "make test" }
 }
